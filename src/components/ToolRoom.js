@@ -84,7 +84,7 @@ const ToolsCarousel = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200 opacity-70"></div>
       <div className="relative w-full max-w-7xl h-full flex items-center justify-center">
         <h2 className="absolute top-8 left-1/2 transform -translate-x-1/2 text-4xl font-bold text-gray-800 z-30">
-          Our Expertise
+          In House Facilities
         </h2>
         <button 
           onClick={prevSlide}
