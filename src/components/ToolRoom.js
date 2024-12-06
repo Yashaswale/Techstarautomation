@@ -18,7 +18,7 @@ const ToolsCarousel = () => {
     {
       name: "Lathe Machine",
       description: "",
-      icon: "/tools/Lathe_Machine.jpg"
+      icon: "/Tools/Lathe_Machine.jpg"
     },
     {
       name: "M1TR",
