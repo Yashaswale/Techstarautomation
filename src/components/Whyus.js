@@ -19,7 +19,7 @@ const features = [
   {
     title: "PLC and LabVIEW Based Controllers",
     description: "We utilize cutting-edge PLC and LabVIEW technologies for precise, efficient, and adaptable control systems.",
-    image: "/whyus/Plc_based.png",
+    image: "/Whyus/Plc_based.png",
     alt: "24/7 support illustration"
   }
 ]
