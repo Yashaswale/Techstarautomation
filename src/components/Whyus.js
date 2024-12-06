@@ -137,9 +137,9 @@ export default function AnimatedFeatures() {
             transition={{ type: "spring", stiffness: 300, damping: 10 }}
           >
             <h3 className="text-4xl font-bold text-blue-400 mb-2">
-              <CountUp end={1000} duration={2000} startCounting={isVisible} />+
+              <CountUp end={300} duration={2000} startCounting={isVisible} />+
             </h3>
-            <p className="text-gray-300 text-lg">Systems Deployed</p>
+            <p className="text-gray-300 text-lg">Projects Delivered</p>
           </motion.div>
           <motion.div 
             className="bg-black/10 backdrop-blur-xl p-6 rounded-xl shadow-xl"
