@@ -136,10 +136,17 @@ export default function AnimatedFeatures() {
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 300, damping: 10 }}
           >
+<<<<<<< HEAD
             <h3 className="text-4xl font-bold text-white mb-2">
               <CountUp end={1000} duration={2000} startCounting={isVisible} />+
             </h3>
             <p className="text-gray-100 text-lg">Systems Deployed</p>
+=======
+            <h3 className="text-4xl font-bold text-blue-400 mb-2">
+              <CountUp end={300} duration={2000} startCounting={isVisible} />+
+            </h3>
+            <p className="text-gray-300 text-lg">Projects Delivered</p>
+>>>>>>> 3753b53aabab9a4d65af075f6fa938fe4fcc60f4
           </motion.div>
           <motion.div 
             className="bg-white/10 backdrop-blur-xl p-6 rounded-xl shadow-xl"

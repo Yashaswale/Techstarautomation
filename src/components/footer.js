@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h2 className="text-2xl font-bold">TECH STAR</h2>
             <p className="text-sm">
-              Tech Star is a leading technology company dedicated to innovation and excellence in software development.
+              Tech Star is a leading automation company committed to innovation and excellence in delivering cutting-edge automated solutions that optimize processes and drive efficiency.
             </p>
             <div className="flex space-x-4">
               <a

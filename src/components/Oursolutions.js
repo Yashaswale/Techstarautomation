@@ -11,7 +11,7 @@ const images = [
   { id: '4', name: 'Pneumatic base pressing SPM', src: '/Solutions/Pneumatic base pressing SPM.png?height=400&width=600&text=Forest+Trail' },
   { id: '5', name: 'Servo base pressing SPM', src: '/Solutions/Servo base pressing SPM.png?height=400&width=600&text=Desert+Sunset' },
   { id: '6', name: 'Vision Testing SPM', src: '/Solutions/Vision Testing SPM.png?height=400&width=600&text=Northern+Lights' },
-  { id: '7', name: 'Screwing SPM', src: '/Solutions/Screwing SPM.png?height=400&width=600&text=Northern+Lights' },
+  { id: '7', name: 'Screwing SPM', src: '/Solutions/Screwing Spm.png?height=400&width=600&text=Northern+Lights' },
 ]
 
 const EnhancedImageStackAccordion = () => {
