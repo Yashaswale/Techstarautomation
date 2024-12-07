@@ -75,13 +75,6 @@ const EnhancedImageStackAccordion = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <button
-          variant="default"
-          size="lg"
-          className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-200"
-        >
-          Explore More
-        </button>
       </div>
     </div>
   )

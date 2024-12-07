@@ -20,7 +20,7 @@ const Home = () => {
             </video>
 
             {/* Dark Overlay on the Left */}
-            <div className="absolute top-0 left-0 w-2/3 h-full bg-gradient-to-r from-black/90 to-transparent z-10" />
+            <div className="absolute top-0 left-0 w-2/3 h-full bg-gradient-to-r from-sky-900/90 to-transparent z-10" />
 
             {/* Content */}
             <div className="relative z-20 flex h-[calc(100vh-80px)]">

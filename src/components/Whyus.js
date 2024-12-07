@@ -19,7 +19,7 @@ const features = [
   {
     title: "PLC and LabVIEW Based Controllers",
     description: "We utilize cutting-edge PLC and LabVIEW technologies for precise, efficient, and adaptable control systems.",
-    image: "/whyus/Plc_based.png",
+    image: "/Whyus/Plc_based.png",
     alt: "24/7 support illustration"
   }
 ]
@@ -57,7 +57,7 @@ function FeatureCard({ title, description, image, alt, index }) {
       initial={{ opacity: 0, y: 50 }}
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
       transition={{ duration: 0.5, delay: index * 0.2 }}
-      className="bg-black/5 backdrop-blur-xl rounded-xl p-6 shadow-xl hover:shadow-2xl transition-shadow"
+      className="bg-white/10 backdrop-blur-xl rounded-xl p-6 shadow-xl hover:shadow-2xl transition-shadow"
     >
       <div className="relative h-48 mb-6">
         <motion.img
@@ -69,7 +69,7 @@ function FeatureCard({ title, description, image, alt, index }) {
         />
       </div>
       <h3 className="text-xl font-semibold mb-3 text-white">{title}</h3>
-      <p className="text-gray-200/90 text-sm leading-relaxed">{description}</p>
+      <p className="text-gray-100 text-sm leading-relaxed">{description}</p>
     </motion.div>
   )
 }
@@ -105,7 +105,7 @@ export default function AnimatedFeatures() {
   }, []);
 
   return (
-    <section id="why-us" className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white overflow-hidden">
+    <section id="why-us" className="py-20 bg-gradient-to-br from-sky-400 via-sky-500 to-sky-600 text-white overflow-hidden">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">Why Us?</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
@@ -122,38 +122,37 @@ export default function AnimatedFeatures() {
           }`}
         >
           <motion.div 
-            className="bg-black/10 backdrop-blur-xl p-6 rounded-xl shadow-xl"
+            className="bg-white/10 backdrop-blur-xl p-6 rounded-xl shadow-xl"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 300, damping: 10 }}
           >
-            <h3 className="text-4xl font-bold text-blue-400 mb-2">
+            <h3 className="text-4xl font-bold text-white mb-2">
               <CountUp end={50} duration={2000} startCounting={isVisible} />+
             </h3>
-            <p className="text-gray-300 text-lg">Innovative Solutions</p>
+            <p className="text-gray-100 text-lg">Innovative Solutions</p>
           </motion.div>
           <motion.div 
-            className="bg-black/10 backdrop-blur-xl p-6 rounded-xl shadow-xl"
+            className="bg-white/10 backdrop-blur-xl p-6 rounded-xl shadow-xl"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 300, damping: 10 }}
           >
-            <h3 className="text-4xl font-bold text-blue-400 mb-2">
+            <h3 className="text-4xl font-bold text-white mb-2">
               <CountUp end={1000} duration={2000} startCounting={isVisible} />+
             </h3>
-            <p className="text-gray-300 text-lg">Systems Deployed</p>
+            <p className="text-gray-100 text-lg">Systems Deployed</p>
           </motion.div>
           <motion.div 
-            className="bg-black/10 backdrop-blur-xl p-6 rounded-xl shadow-xl"
+            className="bg-white/10 backdrop-blur-xl p-6 rounded-xl shadow-xl"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 300, damping: 10 }}
           >
-            <h3 className="text-4xl font-bold text-blue-400 mb-2">
+            <h3 className="text-4xl font-bold text-white mb-2">
               <CountUp end={95} duration={2000} startCounting={isVisible} />%
             </h3>
-            <p className="text-gray-300 text-lg">Client Satisfaction</p>
+            <p className="text-gray-100 text-lg">Client Satisfaction</p>
           </motion.div>
         </div>
       </div>
     </section>
   )
 }
-

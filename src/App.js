@@ -7,6 +7,7 @@ import ValuableCustomers from "./components/Customers";
 import Footer from "./components/footer";
 import WhyChooseUs from "./components/Whyus";
 import ImageAccordion from "./components/Oursolutions";
+import ScrollingCardGrid from "./components/CardGrid";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <ImageAccordion/>
         </div>
     </div>
+    <ScrollingCardGrid/>
     <ValuableCustomers/>
     <Footer/>
     </div>

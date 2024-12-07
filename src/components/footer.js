@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import React, { useState, useEffect } from "react";
+import { MapPin, Mail, Twitter, Linkedin, Instagram } from "lucide-react";
 
 const Footer = () => {
   const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
@@ -9,8 +9,8 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer section id="contact" className="bg-[#374151] text-white">
-      <div className="container mx-auto px-4 py-8">  
+    <footer section id="contact" className="bg-sky-600 text-white">
+      <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
           {/* About Section */}
           <div className="space-y-4">
@@ -19,8 +19,13 @@ const Footer = () => {
               Tech Star is a leading technology company dedicated to innovation and excellence in software development.
             </p>
             <div className="flex space-x-4">
-              <a href="https://facebook.com" aria-label="Facebook">
-                <Facebook className="h-6 w-6" />
+              <a
+                href="mailto:infotechstar15@yahoo.in "
+                aria-label="Mail"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Mail className="h-6 w-6" />
               </a>
               <a href="https://twitter.com" aria-label="Twitter">
                 <Twitter className="h-6 w-6" />
@@ -57,11 +62,31 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">IMPORTANT LINKS</h3>
             <ul className="space-y-2">
-              <li><a href="/AboutUs" className="hover:underline">About Us</a></li>
-              <li><a href="/services" className="hover:underline">Our Services</a></li>
-              <li><a href="/projects" className="hover:underline">Projects</a></li>
-              <li><a href="/contact" className="hover:underline">Contact Us</a></li>
-              <li><a href="/careers" className="hover:underline">Careers</a></li>
+              <li>
+                <a href="/AboutUs" className="hover:underline">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="/services" className="hover:underline">
+                  Our Services
+                </a>
+              </li>
+              <li>
+                <a href="/projects" className="hover:underline">
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a href="/contact" className="hover:underline">
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a href="/careers" className="hover:underline">
+                  Careers
+                </a>
+              </li>
             </ul>
           </div>
         </div>

@@ -18,7 +18,7 @@ const ToolsCarousel = () => {
     {
       name: "Lathe Machine",
       description: "",
-      icon: "/tools/Lathe_Machine.jpg"
+      icon: "/tools/Lathe_Machine.png"
     },
     {
       name: "M1TR",
@@ -33,7 +33,7 @@ const ToolsCarousel = () => {
     {
       name: "Vertical Milling",
       description: "",
-      icon: "/Tools/V_Milling.jpg"
+      icon: "/Tools/V_Milling.png"
     },
     {
       name: "VMC",
