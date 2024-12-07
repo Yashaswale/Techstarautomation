@@ -18,11 +18,7 @@ const ToolsCarousel = () => {
     {
       name: "Lathe Machine",
       description: "",
-<<<<<<< HEAD
-      icon: "/tools/Lathe_Machine.png"
-=======
       icon: "/Tools/Lathe_Machine.jpg"
->>>>>>> 3753b53aabab9a4d65af075f6fa938fe4fcc60f4
     },
     {
       name: "M1TR",
