@@ -65,7 +65,7 @@ export default function ScrollingCardGrid() {
 
   return (
     <div className="container mx-auto px-4 py-16 space-y-8 overflow-hidden">
-      <h2 className="text-3xl font-bold text-center mb-8">In House Facilities</h2>
+      <h2 className="text-3xl font-bold text-center mb-8">Jigs and Fixtures</h2>
       <div
         ref={containerRef}
         className="relative w-full overflow-hidden"
